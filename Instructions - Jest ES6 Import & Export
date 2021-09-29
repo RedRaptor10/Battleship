@@ -1,0 +1,28 @@
+Using ES6 Import/Export with Jest:
+
+1. Install Babel:
+
+npm install --save-dev babel-jest
+
+2. Configure 'package.json':
+
+{
+	"scripts": {
+		"test": "jest"
+	},
+	"jest": {
+		"transform": {
+			"^.+\\.jsx?$": "babel-jest"
+		}
+	}
+}
+
+3. Install Babel preset:
+
+npm install @babel/preset-env --save-dev
+
+4. Create '.babelrc' file:
+
+{
+	"presets": ["@babel/preset-env"]
+}
