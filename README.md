@@ -4,6 +4,8 @@ A Battleship game app created through [TheOdinProject](https://www.theodinprojec
 
 [Live Demo](https://redraptor10.github.io/Battleship)
 
+![Battleship](/src/assets/preview.jpg)
+
 # Instructions
 
 1. Setup board by dragging each ship to a designated area. Ships can be rotated or placed automatically.
